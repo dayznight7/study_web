@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  
+  <h1>h1태그</h1>
+  
+  <p>p태그</p>
+  
+  <p>aaaaaaaaaaaaa<br>aaaaaaaaaaaaa</p>
+  
+  <ol>
+    <li>123</li>
+    <li>456</li>
+    <li>7890</li>
+  </ol>
+  
+  <ul>
+    <li>123</li>
+    <li>456</li>
+    <li>7890</li>
+  </ul>
+
+  <table>
+    <caption>요안도라 객실</caption>
+    <colgroup>
+      <col style="background-color: #eee; width: 150px;">
+      <col span="3" style="width: 150px;">
+    </colgroup>
+    <thead>
+      <th>방 이름</th>
+      <th>대상</th>
+      <th>크기</th>
+      <th>가격</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>유채방</td>
+        <td>여성 도미토리</td>
+        <td rowspan="3">4인실</td>
+        <td rowspan="4">1인 2만원</td>
+      </tr>
+      <tr>
+        <td rowspan="2">동백방</td>
+        <td>동성 도미토리</td>
+      </tr>
+      <tr>
+        <td>가족 1팀</td>
+      </tr>
+      <tr>
+        <td>천혜향방</td>
+        <td>-</td>
+        <td>2인실</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">바깥채 전체를 렌트합니다</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <a href="https://www.youtube.com/watch?v=0-q1KafFCLU" target="_blank">
+    <img src="https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2021101823525704912c4c55f9b3d210178127232.jpg" alt="iu" width="50%">
+  </a>
+
+  <embed src="https://www.youtube.com/embed/0-q1KafFCLU" width="50%" height=400">
+
+  <form action="">
+    <fieldset>
+      <legend>상품 선택</legend>
+      <label><input type="checkbox" value="book"> 책</label>
+      <input type="number" min="0" max="999" value="1">개
+      <label><input type="checkbox" value="lecture"> 강의</label>
+      <input type="range" min="0" max="1" value="1">
+    </fieldset>
+
+    <fieldset>
+      <legend>배송 정보</legend>
+      <ul>
+        <li>
+          <label>아이디 <input type="text" size="10" value="abc" maxlength="5"></label>
+        </li>
+        <li>
+          <label for="input_password">비밀번호</label>
+          <input type="password" id="input_password">
+        </li>
+        <li>
+          <label for="input_address">주소</label>
+          <input type="address" id="input_address">
+        </li>
+        <li>
+          <label for="input_email">이메일</label>
+          <input type="email" id="input_email">
+        </li>
+        <li>
+          <label for="input_phone">연락처</label>
+          <input type="tel" id="input_phone">
+        </li>
+        <li>
+          <label for="input_path">가입경로</label>
+          <select>
+            <option value="iu">iu</option>
+            <option value="taeyeon">taeyeon</option>
+            <option value="heize">heize</option>
+          </select>
+        </li>
+        <li>
+          <label>날짜 <input type="date" min="2021-03-15" max="2022-12-14" value="2021-03-15"></label>
+        </li>
+        <li>
+          <input type="file">
+        </li>
+        <li>
+          <textarea id="memo" cols="40" rows="4"></textarea><br>
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset>
+      <legend>이벤트와 새로운 소식</legend>
+      <input type="radio" name="mailing" id="input_check">
+      <label for="input_check">메일 수신</label>
+      <input type="radio" name="mailing" id="input_check">
+      <label for="input_check">메일 수신 안함</label>
+    </fieldset>
+  </form>
+  
+  <div id="btn_submit">
+    <input type="submit" value="가입하기">
+    <input type="reset" value="취소">
+  </div>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+ 
+</body>
+</html>
