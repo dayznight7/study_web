@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+}
+
+/* style priority: id > class > tag, 우선순위 동일시 나중에 정의된것 */
+#test_id { color: blue; }
+.test_class { color: greenyellow; }
+test_tag { color: hotpink; }
+
+#test_font { 
+  font-family: 'Open Sans', 'Noto Sans KR', sans-serif;
+  color: #48eb99;
+}
+
+#test_color1 { color: hsl(360, 100%, 50%, 0.8); }
+/* 
+hue(색상) 0~360
+saturation(채도) 0%(회색) ~ 100%(원래색) 
+lightness(명도) 0%(빛0) ~ 50%(원래색) ~ 100%(빛100%)
+*/
+#test_color2 { color: rgb(255, 0, 0); }
+#test_color3 { color: rgba(255, 0, 0, 0.8); }
