@@ -4,6 +4,9 @@
 
 * {
   margin: 0;
+  text-decoration: none; /* 및줄 제거 */
+  list-style-type: square;
+  list-style-position: outside;
 }
 
 /* style priority: id > class > tag, 우선순위 동일시 나중에 정의된것 */
@@ -24,3 +27,21 @@ lightness(명도) 0%(빛0) ~ 50%(원래색) ~ 100%(빛100%)
 */
 #test_color2 { color: rgb(255, 0, 0); }
 #test_color3 { color: rgba(255, 0, 0, 0.8); }
+
+#test_text-align {
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+table {
+  caption-side: top;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+}
