@@ -2,3 +2,37 @@ h1, p, div {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
+#id_box1 {
+  margin: 20px;
+  border: 10px solid black;
+  padding: 50px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+#id_box2 {
+  box-sizing: border-box; /* 테두리 포함 너빗값 지정 */
+  border-radius: 10px;
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 10px solid blue;
+}
+
+#id_box3 {
+  margin-top: 10px;
+  margin-left: auto; /* 중앙으로 배치*/
+  margin-right: auto;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border: 20px outset blue;
+}
+
+#id_img1 {
+  margin-top: 5px;
+  border-radius: 40%;
+}
