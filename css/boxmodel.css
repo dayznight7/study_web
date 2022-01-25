@@ -1,6 +1,5 @@
 h1, p, div {
   border: 1px solid black;
-  border-collapse: collapse;
 }
 
 #id_box1 {
@@ -35,4 +34,53 @@ h1, p, div {
 #id_img1 {
   margin-top: 5px;
   border-radius: 40%;
+}
+
+* {
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+
+#id_area1, #id_area2, #id_area3 {
+  display: inline-block;
+  margin: 0px;
+}
+#id_area4 {
+  display: block;
+  margin: 0px;
+} 
+
+#id_area5 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background : red;
+}
+#id_area6 {
+  width: 15%;
+  height: 400px;
+  background: yellow;
+  float: left;
+  margin-left: 25%;
+}
+#id_area7 {
+  width: 35%;
+  height: 400px;
+  background: green;
+  float: left;
+}
+#id_area8 {
+  width: 50%;
+  margin-left: 25%;
+  background: blue;
+  clear: left;
+}
+
+#id_background {
+  margin: 30px;
+  padding: 50px;
+  border: 10px solid black;
+  width: 300px;
+  background-clip: content-box;
+  background-color: skyblue;
 }
