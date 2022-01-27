@@ -1,0 +1,19 @@
+* {
+  padding: 0px;
+}
+
+div {
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 10px;
+}
+
+div div:hover {
+  background-color: black;
+  color: white; /* 글자색 */
+}
+
+div div:active {
+  background-color: #f00;
+}
