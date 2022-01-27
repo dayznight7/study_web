@@ -9,11 +9,31 @@ div {
   padding: 10px;
 }
 
-div div:hover {
+div div:hover, div div:focus {
   background-color: black;
   color: white; /* 글자색 */
 }
 
 div div:active {
   background-color: #f00;
+}
+
+.navi ul li {
+  float: left;
+  width: 100px;
+  padding: 20px;
+  list-style: none;
+  border: 1px solid black;
+}
+
+.navi a:link, .navi a:visited {
+  display: block;
+  font-size: 14px;
+  color: #000;
+  padding: 10px;
+}
+
+#a:target, #b:target {
+  background-color: blue;
+  color: white;
 }
