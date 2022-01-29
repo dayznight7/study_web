@@ -41,3 +41,27 @@ div div:active {
 input:checked + label {
   color: red;
 }
+
+div li {
+  box-sizing: border-box;
+  width: 160px;
+  height: 50px;
+  border: 1px solid black;
+  padding: 10px;
+  list-style: none;
+}
+
+#nth p:nth-of-type(2n+1) {
+  background: lightgray;
+  color: black;
+}
+
+#nth li::after {
+  content: "Hot";
+  font-size: x-small;
+  padding: 2px 4px;
+  margin: 0px 10px;
+  border-radius: 2px;
+  background: red;
+  color: white;
+}
