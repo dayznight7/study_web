@@ -17,7 +17,10 @@ div div {
 #box5:hover { transform: scaleY(1.5); }
 #box6:hover { transform: scale(0.7, 1.5); }
 
-#iu1, #iu2, #iu3 { margin: 50px; }
+#iu1, #iu2, #iu3 { 
+  margin: 50px;
+  float: left;
+}
 
 #iu1:hover { transform: rotateX(55deg); }
 #iu2:hover { transform: rotateY(55deg); }
