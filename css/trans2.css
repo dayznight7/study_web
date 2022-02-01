@@ -6,10 +6,69 @@
   float: left;
 }
 
-#test_rotateX:hover {
-  transform: rotateX(30deg);
+#test_rotateX:hover { transform: rotateX(30deg); }
+#pers { perspective: 200px; }
+#test_rotate3d:hover { transform: rotate3d(2.5,1.5,-1.2, 55deg); }
+
+#wn { clear: both; }
+
+#test_skewx:hover { transform: skewx(-30deg); }
+#test_skewy:hover { transform: skewy(-30deg); }
+#test_skew:hover { transform: skew(-30deg,45deg); }
+
+#box0 {
+  box-sizing: border-box;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  transition: width, height;
+  transition-duration: 2s, 5s;
 }
 
-#pers {
-  perspective: 200px;
+#box0:hover {
+  width: 400px;
+  height: 100px;
+}
+
+#boxbox {
+  height: 420px;
+  border: 10px solid blue;
+}
+
+#box1, #box2, #box3, #box4, #box5 {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: cornflowerblue;
+  transition: height;
+  text-align: center;
+  color: white;
+}
+
+#box1:hover {
+  height: 400px;
+  transition-timing-function: ease;
+  transition-duration: 2s;
+}
+#box2:hover {
+  height: 400px;
+  transition-timing-function: linear;
+  transition-duration: 2s;
+}
+#box3:hover {
+  height: 400px;
+  transition-timing-function: ease-in;
+  transition-duration: 2s;
+}
+#box4:hover {
+  height: 400px;
+  transition-timing-function: ease-out;
+  transition-duration: 2s;
+}
+#box5:hover {
+  height: 400px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 2s;
 }
