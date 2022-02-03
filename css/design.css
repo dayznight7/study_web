@@ -1,4 +1,23 @@
+/* vw vh viewport의 1% */
 h1 {
   font-size: 5vw;
   text-align: center;
+}
+
+/* 화면 사이즈 */
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  h1 { color: blue; }
+}
+
+/* iphone X */
+@media screen and (min-device-width: 375px) and (min-device-width: 812px) {
+  h1 {
+    font-size: 55vw;
+    background-color: aqua; 
+  }
+}
+
+/* 단말기가 가로모드면 */
+@media screen and (orientation: landscape) {
+  h1 { background-color: chartreuse; }
 }
