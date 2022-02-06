@@ -2,38 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/event.css">
 </head>
 <body>
-  <div>
-    <div id="a">a</div>
-    <div id="b">b</div>
-  </div>
 
-  <nav class="navi">
-    <ul>
-      <li><a href="#a"></a></li>
-      <li><a href="#b"></a></li>
-    </ul>
-  </nav>
+  <ul>
+    <li><a href="#" onclick="changeBg('green')">Green</a></li>
+    <li><a href="#" onclick="changeBg('orange')">Orange</a></li>
+    <li><a href="#" onclick="changeBg('purple')">Purple</a></li>
+  </ul>
+  <div id="result"></div>
 
-  <br><br><br>
-  <input type="radio" name="input12" id="input_1">
-  <label for="input_1">input_1</label>
-  <input type="radio"name="input12" id="input_2">
-  <label for="input_2">input_2</label>
+  <button id="open">btn</button>
 
-  <br>
-  <div id="nth">
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>javascript</li>
-      <li>React</li>
-      <li>node.js</li>
-    </ul>
-  </div>
-
+  <script src="js/event.js"></script>
 </body>
 </html>
