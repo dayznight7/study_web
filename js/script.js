@@ -18,3 +18,14 @@ document.write("<b><big>" + name + "</big></b>님, 환영합니다");
 
 // 콘솔창 출력
 console.log(name + "님, 환영합니다");
+console.log(typeof 100>20);
+
+console.log("12 == \"12\" (true)");
+console.log(12 == "12")
+console.log("12 === \"12\" (false)");
+console.log(12 === "12")
+
+console.log("12 != \"12\" (false)");
+console.log(12 != "12")
+console.log("12 !== \"12\" (true)");
+console.log(12 !== "12")
