@@ -31,3 +31,14 @@ let hihi = (a, b) => a + b;
 
 document.write(hi);
 document.write(hihi("hello"," javascript"));
+
+var nums = [1,2,3];
+nums.push(4,5);
+document.write(nums + "<br>");
+nums.unshift(-1,0);
+document.write(nums + "<br>");
+
+document.write(nums.pop() + "<br>");
+document.write(nums.pop() + "<br>");
+document.write(nums.shift() + "<br>");
+document.write(nums.shift() + "<br>");
