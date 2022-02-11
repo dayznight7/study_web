@@ -41,3 +41,14 @@ function myevent3(event) {
 var mvimg2 = document.querySelector("#mv2");
 mvimg2.addEventListener("mouseover", myevent2);
 mvimg2.addEventListener("mouseout", myevent3);
+document.getElementById("ctime").style.color = "blue";
+
+var myrect = document.querySelector("#box4");
+myrect.addEventListener("mouseover", function() {
+  myrect.style.backgroundColor = "green";
+  myrect.style.borderRadius = "50%";
+});
+myrect.addEventListener("mouseout", function() {
+  myrect.style.backgroundColor = "";
+  myrect.style.borderRadius = "";
+});

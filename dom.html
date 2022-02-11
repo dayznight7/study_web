@@ -4,12 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    #box4 {
+      box-sizing: border-box;
+      width: 200px;
+      height: 200px;
+      border: 1px solid black;
+      transition: 1s;
+    }
+
+  </style>
+
 </head>
 <body>
 
   <button onclick="inntext()">innerText로 표시하기</button>
   <button onclick="innhtml()">innerHTML로 표시하기</button>
-  <h1>현재 시각: </h1>
+  <h1 id="ctime">현재 시각: </h1>
   <div id="current"></div>
   
   <button onclick="changeiu()">iu바꾸기</button>
@@ -24,6 +35,8 @@
   <div id="box3">
     <img id="mv2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiQGC7MDgNNLFBJ4ZMcj3ZDmThrIrexCQkPA&usqp=CAU">
   </div>
+
+  <div id="box4"></div>
 
   <script src="js/dom.js"></script>
 </body>
